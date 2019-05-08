@@ -1,0 +1,21 @@
+html {background: rgb(32, 87, 81);}
+body {margin: 0;}
+li {list-style-type: none;}
+a {text-decoration: none; color: black;}
+.line {padding: 3px; margin: 10px 15px 25px; background: white; border: none;}
+nav {min-width: 1100px;}
+.wrapper {width: 1100px; margin: 0 auto;}
+.first-header div {float: left;}
+.flexbox {clear: both; display: flex;}
+.name-1 {color: rgb(120, 144, 168); font-size: 3em; margin: 0 0 0 20px; text-shadow: 3px 3px 5px rgb(0, 0, 0);}
+.name-2 {color: rgb(255, 255, 255); font-size: 3em; margin: 0 0 0 60px; text-shadow: 3px 3px 5px rgb(0, 0, 0);  position: relative; top: -20px;}
+.menu ul {padding: 0;}
+.menu ul li a {float: left; font-size: 1.8em; padding: 20px 50px 0 0;}
+
+.content {text-align: center; position: relative;}
+.board-list {width: 1000px; margin: 0 auto; text-align: center; height: 300px;}
+h5, h4 {margin: 0;}
+.write {position: absolute; right: 10px;}
+.page-box {margin-top: 50px;}
+
+footer {text-align: center;}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>로그인</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+    <h1 class="login">로그인</h1>
+    <div class="wrapper">
+        <hr/>
+        <div class="content">
+            <form>
+                <div>
+                    <label for="e-mail">E-MAIL ADDRESS</label>
+                    <div>
+                        <input type="email" id="e-mail" size="40" maxlength="254" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <div>
+                        <input type="password" id="password" size="10" maxlength="13" required>
+                    </div>
+                </div>
+                <div>
+                    <input class="login-button" type="reset" value="로그인" onclick="window.location.href='login/home.html'">
+                </div>
+            </form>
+            <div class="flexbox">
+                <p><a href="find.html">아이디 찾기　/　비밀번호 찾기</a></p>
+                <p>　/　</p>
+                <p><a href="regist.html"> 회원가입</a></p>
+            </div>
+        </div>
+        <a href="home.html"><img src="images/banner.jpg"/></a>
+    </div>
+</body>
+</html>

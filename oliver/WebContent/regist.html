@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>회원가입</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="regist.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="regist">회원가입</h1>
+        <hr>
+        <div class="content">
+            <form>
+                <div>
+                    <label for="e-mail">E-MAIL ADDRESS</label>
+                    <div>
+                        <input type="email" id="e-mail" size="40" maxlength="254" required> ("아이디로 사용하실 이메일을 입력해주세요.")
+                    </div>
+                </div>
+                <div>
+                    <label for="user-name">USERNAME</label>
+                    <div>
+                        <input type="text" id="user-name" size="10" maxlength="254" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <div>
+                        <input type="password" id="password" size="10" maxlength="13" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <div>
+                        <input type="password" id="confirm-password" size="10" maxlength="13" required>
+                    </div>
+                </div>
+                <div>
+                    <select class="gender">
+                        <option>남자</option>
+                        <option>여자</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="phone">PHONE NUMBER</label>
+                    <div>
+                        <select>
+                            <option>KT</option>
+                            <option>SKT</option>
+                            <option>LG U+</option>
+                        </select>
+                        <select>
+                            <option>010</option>
+                            <option>011</option>
+                            <option>017</option>
+                        </select>
+                        <input type="text" id="phone" size="8" maxlength="8" required> ("-는 생략")
+                    </div>
+                </div>
+                <div>
+                    <label for="address">ADDRESS</label>
+                    <div>
+                        <input type="text" id="address" size="40" maxlength="254" required>
+                    </div>
+                </div>
+                <input type="checkbox" id="checkbox" required>
+                <label for="checkbox">저는 로봇이 아닙니다.</label>
+                <div class="confirm">
+                    <a href="home.html" class="cancel"><button type="reset" onclick="return confirm('취소하시겠습니까?')">취소</button></a>
+                    <input type="submit" value="회원가입">
+                </div>
+            </form>
+        </div>
+        <a href="home.html"><img src="images/banner.jpg"/></a>
+    </div>
+</body>
+</html>

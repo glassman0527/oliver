@@ -1,0 +1,29 @@
+html {background: rgb(32, 87, 81);}
+body {margin: 0;}
+ul li {list-style-type: none;}
+a {text-decoration: none; color: black;}
+.line {padding: 3px; margin: 10px 15px 25px; background: white; border: none;}
+.menu {min-width: 1100px;}
+.wrapper {width: 1100px; margin: 0 auto;}
+.first-header div {float: left;}
+.flexbox {clear: both; display: flex;}
+.name-1 {color: rgb(120, 144, 168); font-size: 3em; margin: 0 0 0 20px; text-shadow: 3px 3px 5px rgb(0, 0, 0);}
+.name-2 {color: rgb(255, 255, 255); font-size: 3em; margin: 0 0 0 60px; text-shadow: 3px 3px 5px rgb(0, 0, 0);  position: relative; top: -20px;}
+.menu ul {padding: 0;}
+.menu ul li a {float: left; font-size: 1.8em; padding: 20px 50px 0 0;}
+
+.content {margin-left: 30px;}
+img {width: 300px; height: 300px;}
+.album, .goods1, .goods2, .goods3 {display: flex;}
+.album nav, .goods1 nav, .goods2 nav, .goods3 nav {margin-left: 150px;}
+nav h2 {margin: 0; padding: 0; margin-bottom: 20px;}
+nav h3 {margin: 0; padding: 0; margin-bottom: 15px;}
+nav h4 {margin: 0; padding: 0; margin-bottom: 10px;}
+ol {padding: 0; display: inline;}
+ol li {margin-bottom: 5px; margin-left: 20px;}
+.goods1, .goods2, .goods3 {margin-top: 20px;}
+button {margin-top: 10px;}
+
+
+
+footer {text-align: center;}

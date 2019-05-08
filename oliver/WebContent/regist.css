@@ -1,0 +1,14 @@
+.content {width: 600px; margin: 0 auto;}
+html {background: rgb(32, 87, 81);}
+label {font-weight: bold;}
+.cancel {text-decoration: none; color: black;}
+.wrapper {width: 600px; margin: 0 auto;}
+.regist {text-align: center;}
+div input {margin-bottom: 10px; width: 200px;}
+.gender {height: 30px;}
+
+.confirm {text-align: center;}
+.confirm button, .confirm input {width: 69.33px;}
+#checkbox {width: 20px;}
+#phone {width: 80px;}
+#address {width: 250px;}

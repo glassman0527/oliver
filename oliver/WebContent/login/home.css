@@ -1,0 +1,44 @@
+html {background: rgb(32, 87, 81);}
+body {margin: 0;}
+li {list-style-type: none;}
+a {text-decoration: none; color: black;}
+.line {padding: 3px; margin: 10px 15px 25px; background: white; border: none;}
+nav {min-width: 1100px;}
+.wrapper {width: 1100px; margin: 0 auto;}
+.first-header div {float: left;}
+.flexbox {clear: both; display: flex;}
+.name-1 {color: rgb(120, 144, 168); font-size: 3em; margin: 0 0 0 20px; text-shadow: 3px 3px 5px rgb(0, 0, 0);}
+.name-2 {color: rgb(255, 255, 255); font-size: 3em; margin: 0 0 0 60px; text-shadow: 3px 3px 5px rgb(0, 0, 0);  position: relative; top: -20px;}
+.menu ul {padding: 0;}
+.menu ul li a {float: left; font-size: 1.8em; padding: 20px 50px 0 0;}
+
+article div {position: relative;}
+.mainphoto {max-width: 100%; margin-bottom: 50px;}
+
+.section-title, .merch-title, .music-title {position: relative; clear: both; width: 100%; display: inline-block; font-weight: 500; text-transform: uppercase; color: #fefefe; text-align: center; }
+.section-title::before, .section-title::after, .merch-title::before, .merch-title::after, .music-title::before, .music-title::after {content: ""; width: 30%; display: inline-block; line-height: 1em; height: 2px; position: absolute; top: 50%;}
+.section-title::before, .merch-title::before, .music-title::before {left: 0; float: left; background-image: linear-gradient(to right, rgba(254, 254, 254, 0), rgba(254, 254, 254, .5));}
+.section-title::after, .merch-title::after, .music-title::after {right: 0; float: right; background-image: linear-gradient(to right, rgba(254, 254, 254, .5), rgba(254, 254, 254, 0));}
+.section-title h2, .merch-title h2 {display: inline-block; margin: 0;}
+
+.latest-div {widows: 100%; display: flex; padding: 0 17px;}
+.tour, .album {width: 513px;}
+.tour {margin-right: 40px;}
+.tour-explain, .album-explain {position: relative;}
+.date {min-width: 50px; padding: 15px 8px; position: absolute; top: -20px; left: -25px; text-align: center; box-shadow: 1px 1px 3px black; z-index: 1; 
+    background-image: linear-gradient(90deg, rgb(29, 143, 105) 10%, rgb(0, 80, 40));}
+.date h6, .date h3 {margin: 0;}
+.tour-text, .album-text {max-width: 480px; padding-left: 50px; top: -40px;}
+.tour::after, .album::after, .merch-image div::after {display: block; position: relative; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgb(32, 87, 81) 100%); content: ''; margin-top: -150px; height: 150px; width: 100%}
+.tourphoto, .albumphoto {width: 100%; display: inline-block;}
+
+.merch-flex {display: flex; padding: 0 85px;}
+.merch-image {display: flex; padding: 0;}
+.mer-img1, .mer-img2, .mer-img3 {width: 220px; margin-right: 15px;}
+.merch-text {text-align: center; padding-right: 15px; top: -40px; position: relative; top: -70px; color: white;}
+
+.music-div {display: flex; padding: 0 22.5px; margin-bottom: 50px;}
+.music-img1, .music-img2, .music-img3 {margin-right: 5px;} 
+.music-div span::after {display: block; position: relative; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgb(32, 87, 81) 100%); content: ''; margin-top: -150px; height: 150px; width: 100%} 
+
+footer {text-align: center;}

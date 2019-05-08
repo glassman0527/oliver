@@ -1,0 +1,10 @@
+html {background: rgb(32, 87, 81);}
+a {text-decoration: none; color: black;}
+div button a {color: grey;}
+.login {text-align: center;}
+.wrapper {width: 600px; margin: 0 auto;}
+label {font-weight: bold;}
+.flexbox {display: flex; width: 340px; margin: 0 auto;}
+#password {width: 313px;}
+
+.login-button {width: 600px; height: 75px; margin-top: 20px; font-weight: bold; font-size: large;}
